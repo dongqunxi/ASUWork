@@ -26,4 +26,5 @@ for i in range(4):
             dis_path = out_path + 'S%s_BAI_SCAN0%d_%s' %(bs_name.split\
                      ('_epoch')[0].split('nih0')[1], s+1, f_type)
             shutil.copy(fn_nii, dis_path)
+            s = s + 1
     
